@@ -1,5 +1,5 @@
-[submodule "/home/daniel/.vim/bundle/Vundle.vim"]
-	path = /home/daniel/.vim/bundle/Vundle.vim
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
 [submodule "bundle/argtextobj.vim"]
 	path = bundle/argtextobj.vim
