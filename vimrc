@@ -31,6 +31,7 @@ Plugin 'vim-scripts/argtextobj.vim'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'kana/vim-textobj-user'
+Plugin 'bkad/CamelCaseMotion'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 "
@@ -146,7 +147,8 @@ set colorcolumn=80
 hi ColorColumn ctermbg=black
 
 " camel case motions
-" call camelcasemotion#CreateMotionMappings('<Tab>')
+let g:camelcasemotion_key = '<Tab>'
+
 " window motion with ctrl
 nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
