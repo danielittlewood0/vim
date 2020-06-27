@@ -32,6 +32,7 @@ Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'kana/vim-textobj-user'
 Plugin 'bkad/CamelCaseMotion'
+Plugin 'mattn/emmet-vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 "
@@ -155,9 +156,6 @@ nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
 
-command! -nargs=1 Htmlil :put=\"<<args>> </<args>>\"
-command! -nargs=1 Html :put=\"<<args>>\n\n</<args>>\n\"
-command! -nargs=1 Begin :put=\"\n\\begin{<args>}\n\n\\end{<args>}\n\"
 command! Cpfp :let @+ = expand('%:p:h')
 
 " conceal by default
